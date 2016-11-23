@@ -28,7 +28,11 @@
   <icon src="icon.png"/>
   <preference name="EnableViewportScale" value="true"/>
 
-
+  <platform name="ios">
+	<icon src="icon.png" width="180" height="180" />
+    <allow-intent href="itms:*"/>
+    <allow-intent href="itms-apps:*"/>
+  </platform>
   <access origin="*"/>
   <allow-intent href="http://*/*"/>
   <allow-intent href="https://*/*"/>

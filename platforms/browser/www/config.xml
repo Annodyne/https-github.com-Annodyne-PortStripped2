@@ -5,6 +5,11 @@
     <author email="support@phonegap.com" href="http://phonegap.com">3fx</author>
     <content src="index.html" />
     <icon src="icon.png" />
+	  <platform name="ios">
+		<icon src="icon.png" width="180" height="180" />
+		<allow-intent href="itms:*"/>
+		<allow-intent href="itms-apps:*"/>
+	  </platform>
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
