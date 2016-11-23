@@ -27,7 +27,9 @@
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <icon src="icon.png"/>
   <preference name="EnableViewportScale" value="true"/>
-
+  <preference name="Orientation" value="landscape" />
+<preference name="AllowInlineMediaPlayback" value="true" />
+	
   <platform name="ios">
 	<icon src="icon.png" width="180" height="180" />
     <allow-intent href="itms:*"/>
